@@ -1,0 +1,17 @@
+﻿Build started 5/9/2018 3:07:47 AM.
+     1>Project "C:\Users\derek\Documents\GitHub\OpenGL-Rendering\OpenGL-Rendering\OpenGL-Rendering\OpenGL-Rendering.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         E:\Program Files (x86)\VSpro\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\src\LineSegment.cpp ..\..\src\main.cpp ..\..\src\Vertex.cpp
+         Vertex.cpp
+     1>c:\users\derek\documents\github\opengl-rendering\src\vertex.cpp(14): warning C4154: deletion of an array expression; conversion to pointer supplied
+         main.cpp
+         LineSegment.cpp
+     1>c:\users\derek\documents\github\opengl-rendering\src\linesegment.cpp(8): error C2512: 'Vertex' : no appropriate default constructor available
+     1>c:\users\derek\documents\github\opengl-rendering\src\linesegment.cpp(15): error C2676: binary '[' : 'Vertex' does not define this operator or a conversion to a type acceptable to the predefined operator
+     1>c:\users\derek\documents\github\opengl-rendering\src\linesegment.cpp(15): error C2088: '[' : illegal for class
+         Generating Code...
+     1>Done Building Project "C:\Users\derek\Documents\GitHub\OpenGL-Rendering\OpenGL-Rendering\OpenGL-Rendering\OpenGL-Rendering.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:01.18
