@@ -13,24 +13,25 @@ Vertex::Vertex(double x, double y, double z) {
 }
 
 Vertex::~Vertex() {
-  delete[] coords;
+  
 }
 
-const double Vertex::get(int i) {
+double Vertex::get(int i) const {
 	if(i > 3) // Always in 3D
 		throw "out of bounds";
 
 	return coords[i];
 }
 
-const double Vertex::getX() {
+double Vertex::getX() const {
   return coords[0];
 }
 
-const double Vertex::getY() {
+double Vertex::getY() const {
   return coords[1];
 }
-const double Vertex::getZ() {
+
+double Vertex::getZ() const {
   return coords[2];
 }
 
@@ -44,4 +45,16 @@ void Vertex::setY(const double _y) {
 
 void Vertex::setZ(const double _z) {
   coords[0] = _z;
+}
+
+void Vertex::set_coords(const Vertex _coords) {
+	coords[0] = _coords.getX();
+	coords[1] = _coords.getY();
+	coords[2] = _coords.getZ();
+}
+
+void Vertex::set_coords(const double* _coords) {
+	coords[0] = _coords[0];
+	coords[1] = _coords[1];
+	coords[2] = _coords[2];
 }

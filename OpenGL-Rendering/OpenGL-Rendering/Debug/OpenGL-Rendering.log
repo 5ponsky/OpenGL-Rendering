@@ -1,17 +1,15 @@
-﻿Build started 5/9/2018 3:07:47 AM.
+﻿Build started 5/9/2018 5:16:28 PM.
      1>Project "C:\Users\derek\Documents\GitHub\OpenGL-Rendering\OpenGL-Rendering\OpenGL-Rendering\OpenGL-Rendering.vcxproj" on node 2 (Build target(s)).
      1>ClCompile:
-         E:\Program Files (x86)\VSpro\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\src\LineSegment.cpp ..\..\src\main.cpp ..\..\src\Vertex.cpp
-         Vertex.cpp
-     1>c:\users\derek\documents\github\opengl-rendering\src\vertex.cpp(14): warning C4154: deletion of an array expression; conversion to pointer supplied
-         main.cpp
+         E:\Program Files (x86)\VSpro\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\src\LineSegment.cpp
          LineSegment.cpp
-     1>c:\users\derek\documents\github\opengl-rendering\src\linesegment.cpp(8): error C2512: 'Vertex' : no appropriate default constructor available
-     1>c:\users\derek\documents\github\opengl-rendering\src\linesegment.cpp(15): error C2676: binary '[' : 'Vertex' does not define this operator or a conversion to a type acceptable to the predefined operator
-     1>c:\users\derek\documents\github\opengl-rendering\src\linesegment.cpp(15): error C2088: '[' : illegal for class
-         Generating Code...
-     1>Done Building Project "C:\Users\derek\Documents\GitHub\OpenGL-Rendering\OpenGL-Rendering\OpenGL-Rendering\OpenGL-Rendering.vcxproj" (Build target(s)) -- FAILED.
+       Link:
+         E:\Program Files (x86)\VSpro\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\derek\Documents\GitHub\OpenGL-Rendering\OpenGL-Rendering\Debug\OpenGL-Rendering.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\derek\Documents\GitHub\OpenGL-Rendering\OpenGL-Rendering\Debug\OpenGL-Rendering.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\derek\Documents\GitHub\OpenGL-Rendering\OpenGL-Rendering\Debug\OpenGL-Rendering.lib" /MACHINE:X86 Debug\LineSegment.obj
+         Debug\main.obj
+         Debug\Vertex.obj
+         OpenGL-Rendering.vcxproj -> C:\Users\derek\Documents\GitHub\OpenGL-Rendering\OpenGL-Rendering\Debug\OpenGL-Rendering.exe
+     1>Done Building Project "C:\Users\derek\Documents\GitHub\OpenGL-Rendering\OpenGL-Rendering\OpenGL-Rendering\OpenGL-Rendering.vcxproj" (Build target(s)).
 
-Build FAILED.
+Build succeeded.
 
-Time Elapsed 00:00:01.18
+Time Elapsed 00:00:01.32

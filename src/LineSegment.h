@@ -3,26 +3,35 @@
 #ifndef LINESEGMENT_H
 #define LINESEGMENT_H
 
+#include <math.h>
+#include <iostream>
+#include <string>
+
 #include "Vertex.h"
 
-class LineSegment {
+using namespace std;
+
+class LineSegment { 
 public:
   LineSegment(Vertex& _a, Vertex& _b);
   ~LineSegment();
 
-  const Vertex& getA();
-  const Vertex& getB();
+  const Vertex* getA();
+  const Vertex* getB();
   const double getLength();
 
-  void setA(const Vertex& _coords);
-  void setB(const Vertex& _coords);
+  void setA(Vertex& _coords);
+  void setB(Vertex& _coords);
 
-  void setA(const int& _coords);
-  void setB(const int& _coords);
+  void setA(double* _coords);
+  void setB(double* _coords);
+
+	void print();
 
 private:
   double length;
-  Vertex a, b;
+  Vertex* a;
+	Vertex* b;
 };
 
 #endif
